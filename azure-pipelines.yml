@@ -41,3 +41,11 @@ steps:
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: DotNetCoreApp
+
+- task: AzureWebapp@1
+  displayName: 'Deploy to Aure web app'
+  inputs:
+    azureSubscription: 'DotnetConnection'
+    appType: 'WebApp'
+    appName: 'devonCoreWeb'
+    package: '$(Build.ArtifactStagingDirectory)'
