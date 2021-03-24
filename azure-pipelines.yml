@@ -45,7 +45,7 @@ steps:
 - task: AzureWebapp@1
   displayName: 'Deploy to Aure web app'
   inputs:
-    azureSubscription: 'DotnetConnection'
+    azureSubscription: 'WebCore_demo'
     appType: 'WebApp'
     appName: 'devonCoreWeb'
     package: '$(Build.ArtifactStagingDirectory)'
