@@ -1,0 +1,22 @@
+# Build results
+/WebApplication/[Dd]ebug/
+/WebApplication/[Dd]ebugPublic/
+/WebApplication/[Rr]elease/
+/WebApplication/[Rr]eleases/
+/WebApplication/x64/
+/WebApplication/x86/
+/WebApplication/bld/
+/WebApplication/[Bb]in/
+/WebApplication/[Oo]bj/
+/WebApplication/[Ll]og/
+
+# Visual Studio 2015 cache/options directory
+/WebApplication/.vs/*
+
+/WebApplication/obj/*
+/WebApplication/.dll
+/WebApplication/*.cache
+/WebApplication/Obj/
+/WebApplication/packages
+/WebApplication/*.suo
+/WebApplication/*.user
